@@ -112,9 +112,8 @@ p.dash {
 .form-title {
   font-weight: 500;
   font-size: 30px;
-  line-height: 36px;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 7%;
 }
 
 .form-content {
@@ -164,8 +163,6 @@ p.dash {
   justify-content: space-between;
   align-items: center;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 20px;
   margin-bottom: 50px;
   white-space: nowrap;
 }
@@ -248,6 +245,20 @@ footer {
 @media screen and (max-width: 1103px) {
   .button {
     font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .button {
+    font-size: 13px;
+  }
+
+  .form-title {
+    font-size: 20px;
+  }
+
+  .remember-forgot, .options p,  .form-label {
+    font-size: 15px;
   }
 }
 
