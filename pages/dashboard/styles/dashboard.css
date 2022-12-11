@@ -136,7 +136,7 @@ li {
 }
 
 .d-link li {
-    margin: 9% 0;
+    margin: 10% 0;
     font-size: large;
     font-weight: 600;
 }
@@ -436,5 +436,9 @@ form {
     .box {
         font-size: 15px;
         padding: 2%;
+    }
+
+    .d-link li {
+        margin: 25% 0;
     }
 }
