@@ -250,7 +250,7 @@ footer {
 
 @media screen and (max-width: 1000px) {
   .button {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .form-title {
@@ -258,6 +258,32 @@ footer {
   }
 
   .remember-forgot, .options p,  .form-label {
+    font-size: 15px;
+  }
+
+  .form-control input {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .button {
+    font-size: 15px;
+  }
+
+  .button-group {
+    flex-wrap: wrap;
+  }
+
+  .form-title {
+    font-size: 20px;
+  }
+
+  .remember-forgot, .options p,  .form-label {
+    font-size: 13px;
+  }
+
+  .form-control input {
     font-size: 15px;
   }
 }
