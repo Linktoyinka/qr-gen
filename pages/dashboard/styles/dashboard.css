@@ -99,8 +99,8 @@ main {
 
 
 .dash {
-    font-size: 20px;
-    padding: 13px 19px;
+    font-size: 17px;
+    padding: 10px 15px;
     border-radius: 30px;
     color: var(--blue);
     background-color: var(--orange);
@@ -144,7 +144,7 @@ li {
 
 .d-link li:nth-child(1) {
     padding-bottom: 3%;
-    border-bottom: 2px solid var(--orange);
+    border-bottom: 1px solid var(--orange);
 }
 
 
@@ -175,7 +175,7 @@ form {
     border: 1px solid var(--orange);
     border-radius: 5px;
     padding: 1%;
-    font-size: 120%;
+    font-size: 20px;
     width: 100%;
 }
 
@@ -227,7 +227,7 @@ form {
 
 .output {
     padding: 7% 0;
-    background-color: var(--white);
+    background-color: white;
     
 }
 
@@ -283,4 +283,143 @@ form {
 
 .btn-link:hover span {
     display: inline-block;
+}
+
+@media screen and (max-width: 880px) {
+    .d-link a {
+        font-size: 16px;
+    }
+
+    .dash {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    label, .download-text {
+        font-size: 18px;
+    }
+
+    .btn-link span {
+        display: inline-block;
+    }
+
+    .gen-qr {
+        width: 20%;
+    }
+    
+}
+
+@media screen and (max-width: 782px) {
+    .d-link a {
+        font-size: 14px;
+    }
+
+    .dash {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    label, .download-text {
+        font-size: 16px;
+    }
+
+    .btn-link span {
+        display: inline-block;
+    }
+
+    .gen-qr {
+        width: 20%;
+    }
+
+    .box {
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 682px) {
+    .d-link a {
+        font-size: 20px;
+    }
+/* 
+    .dash {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    label, .download-text {
+        font-size: 16px;
+    }
+
+    .btn-link span {
+        display: inline-block;
+    }
+
+    .gen-qr {
+        width: 20%;
+    } */
+    
+    .span-1 {
+        display: none;
+    }
+
+    .dash-link {
+        text-align: center;
+    }
+
+    .dashboard-menu {
+        width: 20%;
+    }
+
+    .dashboard {
+        width: 80%;
+    }
+
+    .btn-1, .btn-2 {
+        font-size: 14px;
+    }
+
+    .box {
+        font-size: 16px;
+    }
+
+    .pri-btn {
+        font-size: 15px;
+    }
+
+    .pri-btn-2 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gen-qr {
+        width: 25%;
+    }
+    
+}
+
+@media screen and (max-width: 555px) {
+    .code {
+        flex-wrap: wrap;
+    }
+
+    .gen-qr {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gen-qr img {
+        width: 70%;
+    }
+
+    .download {
+        width: 90%;
+        margin-top: 8%;
+    }
+
+    .download-btn ul {
+        text-align: center;
+    }
+    
 }
