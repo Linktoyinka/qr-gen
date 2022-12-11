@@ -27,6 +27,14 @@ body {
   --orange-color-hover: #e07d2b;
 }
 
+a {
+  text-decoration: none;
+  color: var(--orange-color);
+}
+a:hover {
+  color: var(--orange-color-hover);
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -176,6 +184,71 @@ p.dash {
   gap: 7px;
 }
 
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 11px;
+  flex-wrap: wrap;
+}
+.button {
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  width: 100%;
+  padding: 7px;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+}
+.login-button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+}
+.login-button:hover {
+  background-color: var(--secondary-color-hover);
+}
+.google-button {
+  border: 1.33685px solid var(--orange-color);
+  color: var(--orange-color);
+  background-color: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.google-button:hover {
+  background-color: var(--orange-color);
+  color: var(--primary-color);
+}
+.google-button img {
+  width: 15px;
+  height: 15px;
+}
+.options {
+  margin-top: 30px;
+  text-align: center;
+}
+.options p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.options .sign-up {
+  color: var(--orange-color);
+}
+.options .sign-up:hover {
+  color: var(--orange-color-hover);
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -193,13 +266,7 @@ p.dash {
 
 
 
-  a {
-    text-decoration: none;
-    color: var(--orange-color);
-  }
-  a:hover {
-    color: var(--orange-color-hover);
-  }
+  
   
   Utilities
   body {
@@ -282,62 +349,7 @@ p.dash {
   }
   
   /* Button */
-  .button-group {
-    display: flex;
-    justify-content: space-between;
-    gap: 11px;
-    flex-wrap: wrap;
-  }
-  .button {
-    border-radius: 5px;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    width: 100%;
-    padding: 7px;
-    cursor: pointer;
-    transition: all 0.7s ease-in-out;
-  }
-  .login-button {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    border: none;
-  }
-  .login-button:hover {
-    background-color: var(--secondary-color-hover);
-  }
-  .google-button {
-    border: 1.33685px solid var(--orange-color);
-    color: var(--orange-color);
-    background-color: transparent;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 7px;
-  }
-  .google-button:hover {
-    background-color: var(--orange-color);
-    color: var(--primary-color);
-  }
-  .google-button img {
-    width: 15px;
-    height: 15px;
-  }
-  .options {
-    margin-top: 30px;
-    text-align: center;
-  }
-  .options p {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 20px;
-  }
-  .options .sign-up {
-    color: var(--orange-color);
-  }
-  .options .sign-up:hover {
-    color: var(--orange-color-hover);
-  }
+  
   
   @media (min-width: 260px) {
     .form-content {
