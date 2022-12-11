@@ -241,6 +241,10 @@ p.dash {
   color: var(--orange-color-hover);
 }
 
+.remember-forgot, .options p {
+  font-size: 16px;
+}
+
 
 
 
@@ -436,10 +440,7 @@ p.dash {
       margin-bottom: 30px;
    
     }
-    .remember-forgot,
-    .options p {
-      font-size: 16px;
-    }
+    
     .button {
       padding: 10px;
       font-size: 14.7588px;
