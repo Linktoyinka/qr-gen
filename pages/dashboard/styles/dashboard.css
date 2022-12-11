@@ -10,6 +10,7 @@ body {
     width: 100%;
     font-family: 'Inter', sans-serif;
     height: 100vh;
+    background-color: var(--white);
 }
 
 :root {
@@ -86,10 +87,11 @@ main {
 .dashboard-menu {
     width: 20%;
     background-color: var(--white);
+    border-right: 5px solid #eeeeee;
 }
 
 .dashboard {
-    width: 79.8%;
+    width: 80%;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -110,10 +112,10 @@ main {
 }
 
 .up {
-    text-align: center;
-    display: grid;
-    place-content: center;
-    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12%;
 }
 
 .dash-link {
@@ -137,7 +139,7 @@ li {
 .d-link li {
     margin: 9% 0;
     font-size: large;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .d-link li:nth-child(1) {
@@ -209,18 +211,18 @@ form {
 .btn-2 {
     padding: 5px 9px;
     border-radius: 5px;
-    border: 1px solid transparent;
+    border: 1px solid var(--orange);
     outline: none;
     font-size: 1em;
     font-weight: 600;
     cursor: pointer;
-    background-color: var(--orange);
+    /* background-color: var(--orange); */
     color: var(--blue);
 }
 
 .btn-2:hover {
-    background-color: var(--blue);
-    color: var(--orange);
+    background-color: var(--orange);
+    color: var(--blue);
 }
 
 .output {
