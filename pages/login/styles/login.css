@@ -118,6 +118,7 @@ p.dash {
   color: var(--secondary-color);
   /* padding: 30px; */
   width: 100%;
+  padding: 5%;
   /* margin-top: 30px; */
   /* margin-right: 100px; */
   /* position: relative; */
@@ -340,8 +341,8 @@ p.dash {
   
   @media (min-width: 260px) {
     .form-content {
-      min-width: 400px;
-      padding: 60px;
+      /* min-width: 400px;
+      padding: 60px; */
     }
     .button {
       padding: 10px;
@@ -460,7 +461,7 @@ p.dash {
   
   @media (min-width: 1340px) {
     .form-content {
-      min-width: 387px;
+      /* min-width: 387px;
       padding: 24px 50px 1px;
-    }
+    } */
   }
