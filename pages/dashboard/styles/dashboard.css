@@ -80,7 +80,6 @@ a {
 main {
     display: flex;
     justify-content: space-between;
-    /* height: 90vh; */
     align-items: stretch;
 }
 
@@ -216,7 +215,6 @@ form {
     font-size: 1em;
     font-weight: 600;
     cursor: pointer;
-    /* background-color: var(--orange); */
     color: var(--blue);
 }
 
@@ -243,7 +241,6 @@ form {
 
 .download {
     width: 30%;
-    /* background-color: #FC9E4F; */
 }
 
 .gen-qr img {
@@ -421,5 +418,23 @@ form {
     .download-btn ul {
         text-align: center;
     }
+
+    form {
+        flex-wrap: wrap;
+    }
+
+    .form-left {
+        width: 90%;
+    }
+
+    .form-right {
+        width: 90%;
+        flex-direction: row;
+        margin-top: 2%;
+    }
     
+    .box {
+        font-size: 15px;
+        padding: 2%;
+    }
 }
